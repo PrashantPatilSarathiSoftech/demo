@@ -3,8 +3,9 @@ public class Main {
         System.out.println("Hello world!");
         Student student=new Student(1,"prashant", 40);
         System.out.println(student);
-
-
+        System.out.println("\n\n\n\n");
+        Course course = new Course(1, 3, "full stack");
+        System.out.println(course);
 
 
     }
